@@ -209,11 +209,13 @@ docker exec -it school-postgres psql --username=postgres -c "SHOW TIMEZONE;"
 
 ### 4. 📊 Структура бази даних
 
-• Teachers (id, fullname)
-• Groups (id, name)
-• Students (id, fullname, group_id)
-• Subjects (id, name, teacher_id)
-• Grades (id, student_id, subject_id, grade, date_received)
+```text
+    • Teachers (id, fullname)
+    • Groups (id, name)
+    • Students (id, fullname, group_id)
+    • Subjects (id, name, teacher_id)
+    • Grades (id, student_id, subject_id, grade, date_received)
+```
 
 ### 5. 📥 Міграції Alembic
 
