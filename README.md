@@ -343,9 +343,11 @@ python main.py -a remove -m Subject --id 1
 
 # ✅ Підсумок
 
+```Text
 • Docker Compose налаштований із таймзоною Europe/Kyiv.
 • Alembic використовується для міграцій, усі ревізії зберігаються в alembic/versions/
 • База даних створена й засіяна Faker-ом.
 • ORM запити працюють (my_select.py).
 • CRUD через CLI реалізовано для всіх моделей (main.py).
 • Poetry використовується для керування залежностями (pyproject.toml, poetry.lock).
+```
