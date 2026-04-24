@@ -139,8 +139,6 @@ session.query(Student.fullname, func.round(func.avg(Grade.grade), 2).label('avg_
 
 ## 📂 Структура репозиторію
 
-## 📂 Структура репозиторію
-
 ```text
 hw07/
 ├── alembic/                     # Папка для міграцій Alembic
